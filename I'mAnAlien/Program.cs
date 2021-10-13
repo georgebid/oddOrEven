@@ -9,6 +9,7 @@ namespace I_mAnAlien
             int result = Multiply(3, 7);
             Console.WriteLine($"The result is {result}");
 
+            // using the modules operator % its possible to check what the remainder is when deviding by 2. If its 0, then it will be an even number.
             if (result % 2 == 0)
             {
                 Console.WriteLine($"The result is an even number!");
@@ -18,6 +19,7 @@ namespace I_mAnAlien
             }
 
         }
+        //Using an int type called Multiply, I have created a method which will multiply two numbers, and then it will return the result.
         static int Multiply(int num01, int num02)
         {
             int result = num01 * num02;
